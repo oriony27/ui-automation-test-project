@@ -1,7 +1,8 @@
 package com.epam.rd.enumerations;
 
 public enum SupportedWebDrivers {
-    CHROME("chrome");
+    CHROME("chrome"),
+    FIREFOX("firefox");
 
     private String driverName;
 
